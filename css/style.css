@@ -41,8 +41,12 @@ html, body{
 }
 
 .contents{
+    font-family :"Malgun Gothic" sans-serif;
     position: absolute;
-    top:0;
+    top:50%;
+    left: 50%;
+    margin-left: -242px;
+    margin-top: -109px;
     z-index:20;
     text-align: center;
 }
@@ -66,10 +70,16 @@ html, body{
 }
 
 .contents_list > li{
+    margin-left: 5%;
     font-size: 16px;
     display: inline-block;
     width: 52px;
     height: 52px;
     border :1px solid white;
     border-radius: 50%;
+    line-height: 52px;
+}
+
+.contents_list > li > a{
+    color:white;
 }
